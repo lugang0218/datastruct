@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code/c/datastruct/LinkedQueue.h
+iostream
+-
+
+D:/code/c/datastruct/RedBlackTree.h
+queue
+-
+iostream
+-
+cmath
+-
+LinkedQueue.h
+D:/code/c/datastruct/LinkedQueue.h
+
+D:/code/c/datastruct/main.cpp
+iostream
+-
+RedBlackTree.h
+D:/code/c/datastruct/RedBlackTree.h
+
